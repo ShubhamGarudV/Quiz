@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <h2 class="Gallery">Gallery</h2>
+   <div class="slideshow" id="idslide">    
+    </div>
+ 
+    <div class="this-container">
+      <h3 class="headingquiz">Take The Quiz</h3>
+      <div class="container" id="containerid">
+       
+        <div class="question" id="que">
+        </div>
+        <label class="option"><input type="radio" name="option" value="1"/>
+        <span id="opt1"></span></label>
+
+        <label class="option"><input type="radio" name="option" value="2"/>
+        <span id="opt2"></span></label>
+
+        <label class="option"><input type="radio" name="option" value="3"/>
+        <span id="opt3"></span></label>
+
+        <label class="option"><input type="radio" name="option" value="4"/>
+        <span id="opt4"></span></label>
+        
+        <button id="nextbtn" class="next-btn" type="button" 
+        onclick="loadNextQuestion();">Next Question</button>
+       
+    </div>
+   
+    <div class="result-container"  id="result" style="display: none;">
+        <!-- <h2 class="result-text" id="restextid">Your Result is 40/60</h2> -->
+        <!-- <div class="try-again">
+
+        </div> -->
+        <!-- <button id="playagain" class="play-again" type="button" 
+        onclick="reload();">play-again</button> -->
+    </div>
+
+    <div class="linkheading" id="checkansid">
+      <h2>Check Answers Of The Quiz</h2>
+    </div>
+    <div class="links-container" id="linkcont1">
+       
+      
+        <div class="linkbox">
+            
+           <img src="/images/a1.JPG" alt="" class="ansimg"> 
+           <a class="actlink" href="https://www.freepressjournal.in/cmcm/a-1950s-throwback-pictures-of-indias-very-first-republic-day" target="_blank">1.Read The Article</a>
+        </div>
+        <div class="linkbox">
+            <img src="/images/a2.JPG" alt="" class="ansimg" > 
+            <a class="actlink" href="https://www.salcoca.com/first-copy-of-constitution-of-india-was-hand-written/" target="_blank">2.Read The Article</a>
+         </div>
+         <div class="linkbox">
+            <img src="/images/a3.JPG" alt="" class="ansimg">
+            <a class="actlink" href="https://knowindia.gov.in/republic-day-celebration/trivia.php#:~:text=Republic%20Day%20is%20a%20three,the%20end%20of%20Republic%20Day."target="_blank">3.Read The Article</a> 
+         </div>
+         <div class="linkbox">
+            <img src="/images/a4.JPG" alt="" class="ansimg">
+            <a class="actlink" href="https://www.jagranjosh.com/general-knowledge/list-of-all-chief-guests-on-indian-republic-day-parades-1579256264-1"target="_blank">4.Read The Article</a> 
+         </div>
+         <div class="linkbox">
+            <img src="/images/a5.JPG" alt="" class="ansimg"> 
+            <a class="actlink" href="https://www.bloombergquint.com/politics/26-facts-you-didnt-know-about-the-indian-constitution-republic"target="_blank">5.Read The Article</a>
+         </div>
+    </div>
+    <div class="links-container" id="linkcont2"> 
+         <div class="linkbox">
+            <img src="/images/a6.JPG" alt="" class="ansimg"> 
+            <a class="actlink" href="https://www.indiatoday.in/education-today/gk-current-affairs/story/constitution-day-borrowed-features-in-the-indian-constitution-1622632-2019-11-26"target="_blank">6.Read The Article</a>
+         </div>
+         <div class="linkbox">
+            <img src="/images/a7.JPG" alt="" class="ansimg"> 
+            <a class="actlink" href="https://constitutionnet.org/country/constitutional-history-india#:~:text=Prior%20to%20the%20constituent%20assembly,Acts%20of%201919%20and%201935."target="_blank">7.Read The Article</a>
+         </div>
+         <div class="linkbox">
+            <img src="/images/a8.JPG" alt="" class="ansimg"> 
+            <a class="actlink" href="https://en.wikipedia.org/wiki/Satyameva_Jayate#:~:text=j%C9%90.,day%20India%20became%20a%20republic."target="_blank">8.Read The Article</a>
+         </div>
+         <div class="linkbox">
+            <img src="/images/a9.JPG" alt="" class="ansimg"> 
+            <a class="actlink" href="https://en.wikipedia.org/wiki/List_of_presidents_of_India"target="_blank">9.Read The Article</a>
+         </div>
+         <div class="linkbox">
+            <img src="/images/a10.JPG" alt="" class="ansimg">
+            <a class="actlink" href="https://en.wikipedia.org/wiki/Vande_Mataram#:~:text=Vande%20Mataram%20(IAST%3A%20Vande%20M%C4%81taram,his%201882%20Bengali%20novel%20Anandamath."target="_blank">10.Read The Article</a> 
+         </div>
+    </div>
+   </div>
+    <script src="questions.js"></script>
+    <script src="script.js"></script>
+    <script src="slide.js"></script>
+    
+</body>
+</html>
